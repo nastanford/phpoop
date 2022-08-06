@@ -1,9 +1,12 @@
 <?php
 spl_autoload_register(function ($class_name) {
-  $fullpath ='classes/'.$class_name . '.class.php';
-  if (!file_exists($fullpath)) {
+  $path = 'classes/';
+  $extension = '.class.php';
+  $filepath = $path.$class_name.$extension;
+
+  if (!file_exists($filepath)) {
     return false;
   }
-  include_once $fullpath;
+  include_once $filepath;
 });
 ?>
