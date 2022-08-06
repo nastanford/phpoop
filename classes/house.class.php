@@ -1,21 +1,19 @@
 <?php
+class House 
+{
+  private $number;
+  private $street;
 
-class Person {
-  private $first = "Jim";
-  private $last = "Sample";
-  private $age = "25";
+// constructor
+  public function __construct($number, $street)
+  {
+    $this->number = $number;
+    $this->street = $street;
+  }
 
-  public function owner() {
-    $result = $this->first." ".$this->last;
+  public function getAddress() {
+    $result = $this->number." ".$this->street;
     return $result;
   }
 }
 
-class Pet {
-  public function owner() {
-    $result = $this->first." ".$this->last;
-    return $result;
-  }
-}
-
-?>

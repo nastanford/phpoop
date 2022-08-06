@@ -1,5 +1,4 @@
 <?php
-
 class Person 
 {
   private $first;
@@ -19,27 +18,4 @@ class Person
     return $result;
   }
 }
-
-class Pet 
-{
-  public function owner() {
-    $result = $this->first." ".$this->last;
-    return $result;
-  }
-}
-
-// function loadModel($class) 
-// {
-//   $path = $DOCUMENT_ROOT . '/models/';
-//   require_once $path . $class .'.php';
-// }
-
-// function loadView($class) 
-// {
-//   $path = $DOCUMENT_ROOT . '/views/';
-//   require_once $path . $class .'.php';
-// }
-
-// spl_autoload_register('loadModel');
-// spl_autoload_register('loadView');
 
