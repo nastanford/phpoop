@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php 
-  $person = new person("Jim", "Sample", "25");
+  $person = new Person\person("Jim", "Sample", "25");
   echo $person->getPerson();
   echo "<br>";
   $house = new house("214", "Main St");

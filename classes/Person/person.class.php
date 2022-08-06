@@ -1,4 +1,7 @@
 <?php
+
+namespace Person;
+
 class Person 
 {
   private $first;
