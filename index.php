@@ -10,14 +10,14 @@
   <title>PHP OOP</title>
 </head>
 <body>
-<?php 
-  $person = new Person\person("Jim", "Sample", "25");
-  echo $person->getPerson();
-  echo "<br>";
-  $house = new house("214", "Main St");
-  echo $house->getAddress();
+  <?php 
+    $test = new Test();
+    $test->getUsers();
+    echo "<hr>";
+    // $test = new Test();    
+    // $test->setUserStmt('Paul','Robb','1980-04-05');
 
-?>
+  ?>
 
 
 </body>
