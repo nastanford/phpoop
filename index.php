@@ -11,11 +11,8 @@
 </head>
 <body>
   <?php 
-    $test = new Test();
-    $test->getUsers();
-    echo "<hr>";
-    // $test = new Test();    
-    // $test->setUserStmt('Paul','Robb','1980-04-05');
+    $usersearch = new UsersView();
+    $usersearch->showUsers('Jim');
 
   ?>
 
