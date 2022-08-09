@@ -1,6 +1,13 @@
 <?php
+
 class Database 
 {
+  // constructor
+  public function __construct()
+  {
+    echo "database class is loaded<br>";
+  }
+
   private $host = "localhost";
   private $user = "root";
   private $password = "";
